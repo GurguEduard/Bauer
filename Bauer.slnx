@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Bauer/Bauer.vcxproj" Id="dfbd9b2b-32ad-48bc-afd7-74182c42019e" />
+</Solution>
