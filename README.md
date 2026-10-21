@@ -42,7 +42,15 @@ Each year the surplus is split between reinvestment (`a_c + a_v`) and capitalist
 
 ## Build and run
 
-Open `Bauer.sln` in Visual Studio 2022 and press **Ctrl+F5**. It builds with MSVC and has no external libraries.
+Open `Bauer.slnx` in Visual Studio 2022 (17.13 or later) and press **Ctrl+F5**. It builds with MSVC and has no external libraries.
+
+At the end of a run, the program launches `graphs.py`, which charts the run with pandas and matplotlib: surplus, accumulation and consumption; capital stocks by department; consumption by department; and the rate of profit against the organic composition of capital. To get the charts, install Python and the two libraries:
+
+```
+pip install pandas matplotlib
+```
+
+Without them, the simulation still runs and prints its tables, followed by a message that the charts couldn't be opened.
 
 ## Input example
 
